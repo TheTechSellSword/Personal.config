@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # # # TODO :
+#           create zip version instead of tar...
 #           check-if-pkg-exist(){}
 #           get-tar-extraction-location(){}
 
