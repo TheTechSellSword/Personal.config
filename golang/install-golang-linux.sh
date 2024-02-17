@@ -1,4 +1,7 @@
-#!/bin/bash/env
+#!/bin/bash
+
+# # # TODO :
+#           remove-previous-go-path(){}
 
 check-if-go-is-installed(){
     cd
@@ -71,17 +74,6 @@ check-if-exported-path-is-found-in-dot-profile-file(){
     fi
 
 }
-# remove-previous-go-path(){
-#     echo "Do you want to remove the previous Go path? Y/n"
-#     read answer
-
-#     if [[ $answer == "Y" || $answer == "y" ]];
-#     then
-#         # TODO : Write logic that deletes old PATH using ( sed ) needs to be researched more.
-#     else
-#         exit 0
-#     fi
-# }
 add-go-path-to-profile(){
     FILE="$HOME/.profile"
     STRING="export PATH=$PATH:/usr/local/go/bin"
