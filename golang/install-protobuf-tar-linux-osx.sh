@@ -2,6 +2,7 @@
 
 # # # TODO :
 #           create zip version instead of tar...
+#           change path from bashrc to .profile
 #           check-if-pkg-exist(){}
 #           get-tar-extraction-location(){}
 
